@@ -1,0 +1,81 @@
+@use "./fonts";
+@use "@/styles/colors/colors";
+
+
+.input-error-font {
+    font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: colors.$input-error-clr;
+
+    @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.input-error-font-small {
+    font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: colors.$input-error-clr;
+
+    @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+.input-label-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: colors.$input-label-clr;
+    letter-spacing: 1px;
+
+    @media (max-width: 768px) {
+    font-size: 16px;
+  
+  }
+}
+
+.input-label-font-small {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: colors.$input-label-clr;
+
+    @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.input-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 450;
+  color: colors.$input-txt-clr;
+
+    @media (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  &::placeholder {
+    color: colors.$input-placeholder-clr;
+  }
+}
+
+.input-font-small {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 450;
+  color: colors.$input-txt-clr;
+
+    @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  &::placeholder {
+    color: colors.$input-placeholder-clr;
+  }
+}

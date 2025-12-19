@@ -1,0 +1,48 @@
+@use "@/styles/colors/themes.scss";
+
+$html-bg-clr: var(--html-bg-clr);
+
+$header-txt-clr: var(--header-txt-clr);
+$header-bg-clr: var(--header-bg-clr);
+
+$main-bg-clr: var(--main-bg-clr);
+$main-txt-clr: var(--main-txt-clr);
+
+$box-bg-clr: var(--box-bg-clr);
+
+$main-btn-bg-clr: var(--main-btn-bg-clr);
+$main-btn-txt-clr: var(--main-btn-txt-clr);
+
+$footer-bg-clr: var(--footer-bg-clr);
+$footer-txt-clr: var(--footer-txt-clr);
+
+$smooth-bg-clr: var(--smooth-bg-clr2);
+
+$std-box-shadow-clr: var(--std-box-shadow-clr);
+
+$input-label-clr: var(--input-label-clr);
+$input-txt-clr: var(--input-txt-clr);
+$input-bg-clr: var(--input-bg-clr);
+$input-placeholder-clr: var(--input-placeholder-clr);
+$input-error-font-clr: var(--input-error-font-clr);
+$input-error-placeholder-clr: var(--input-error-placeholder-clr);
+$input-error-clr: var(--input-error-clr);
+$input-valid-clr: var(--input-valid-clr);
+$smooth-grey-txt-clr: var(--smoot-grey-txt-clr);
+
+$feature-btn-shadow: var(--feature-btn-shadow);
+$feature-btn-text-clr: var( --feature-btn-text-clr);
+$feature-btn-bg-clr: var( --feature-btn-bg-clr);
+$feature-btn-click-bg-clr: var(--feature-btn-click-bg-clr);
+$feature-btn-hover-bg-clr: var(--feature-btn-hover-bg-clr);
+
+$link-txt-clr: var(--link-txt-clr);
+
+$note-bg-clr: var(--note-bg-clr);
+$note-txt-clr: var(--note-txt-clr);
+$note-selected: var( --note-selected);
+
+$logo-clr-xs: var(--logo-clr-xs);
+$logo-clr: var(--logo-clr);
+
+$overlay-bg-color: var(--overlay-bg-color);

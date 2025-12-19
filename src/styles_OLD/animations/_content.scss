@@ -1,0 +1,101 @@
+@keyframes button-smooth-highlight {
+  0% {
+    filter: brightness(100%);
+  }
+  25% {
+    filter: brightness(130%);
+  }
+  50% {
+    filter: brightness(100%);
+  }
+  75% {
+    filter: brightness(70%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity ease-in-out 250ms;
+}
+
+.fade-in {
+  transition: opacity ease-in-out 250ms;
+  opacity: 1;
+}
+
+@keyframes fade-out {
+  0% {
+  }
+}
+
+@keyframes fade-in {
+}
+
+@keyframes slide-up {
+}
+
+@keyframes slide-down {
+}
+
+@keyframes flutter {
+  0% {
+    transform: translateY(0px) scaleX(1) rotate(0deg);
+  }
+  12.5% {
+    transform: translateY(-30px) scaleX(0.75) rotate(-6deg);
+  }
+  25% {
+    transform: translateY(-60px) scaleX(1.25) rotate(6deg);
+  }
+  37.5% {
+    transform: translateY(-90px) scaleX(0.8) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-120px) scaleX(1.2) rotate(4deg);
+  }
+  62.5% {
+    transform: translateY(-150px) scaleX(0.85) rotate(-2deg);
+  }
+  75% {
+    transform: translateY(-180px) scaleX(1.15) rotate(2deg);
+  }
+  87.5% {
+    transform: translateY(-200px) scaleX(0.95) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-200px) scaleX(1) rotate(0deg);
+  }
+}
+
+@keyframes flutter-button-spinner {
+  0% {
+    transform: translate(-50%, -50%) scaleX(1) rotate(0deg);
+  }
+  12.5% {
+    transform: translate(-50%, -50%)  scaleX(0.75) rotate(-6deg);
+  }
+  25% {
+    transform: translate(-50%, -50%)  scaleX(1.25) rotate(6deg);
+  }
+  37.5% {
+    transform:  translate(-50%, -50%) scaleX(0.8) rotate(-4deg);
+  }
+  50% {
+    transform:  translate(-50%, -50%) scaleX(1.2) rotate(4deg);
+  }
+  62.5% {
+    transform: translate(-50%, -50%)  scaleX(0.85) rotate(-2deg);
+  }
+  75% {
+    transform: translate(-50%, -50%)  scaleX(1.15) rotate(2deg);
+  }
+  87.5% {
+    transform: translate(-50%, -50%)  scaleX(0.95) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%)  scaleX(1) rotate(0deg);
+  }
+}

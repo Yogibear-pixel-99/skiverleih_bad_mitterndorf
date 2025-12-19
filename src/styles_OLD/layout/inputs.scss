@@ -1,0 +1,49 @@
+@use "@/styles/colors/colors";
+
+.std-input {
+  color: colors.$input-txt-clr;
+  background-color: colors.$input-bg-clr;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.note-content {
+  padding: 12px 36px 12px 24px;
+  width: 100%;
+  background-color: colors.$note-bg-clr;
+  color: colors.$note-txt-clr;
+}
+
+.input-overlay-std {
+  padding: 6px;;
+  background-color: colors.$input-bg-clr;
+  border-radius: 4px;
+}
+
+.input-error {
+  color: colors.$input-error-clr !important;
+}
+
+.no-error {
+  opacity: 0;
+}
+
+.error-border {
+  border: solid 1px colors.$input-error-clr;
+}
+.no-error-border {
+  border: solid 1px rgba(0, 0, 0, 0);
+}
+
+.btn-not-active {
+  background-color: grey;
+  
+
+  &:hover {
+    cursor: url("/images/cursor/stop-sign-line-icon.png")9 9, pointer;
+    box-shadow: none;
+    scale: (1);
+    filter: brightness(1.00) !important;
+  }
+}
+

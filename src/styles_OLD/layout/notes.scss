@@ -1,0 +1,15 @@
+@use "@/styles/colors/colors";
+
+.std-note {
+    background-color: colors.$note-bg-clr;
+    border-radius: 4px;
+    width: 90dvw;
+    max-width: 500px;
+    min-height: 52px;
+    padding: 12px;
+
+    @media (max-width: 768px) {
+        min-height: 48px;
+        padding: 8px 12px;
+    }
+}

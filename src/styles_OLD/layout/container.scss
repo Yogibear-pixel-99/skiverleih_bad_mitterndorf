@@ -1,0 +1,75 @@
+@use "@/styles/colors/colors";
+
+.pad-main {
+  padding: 32px;
+
+  @media (max-width: 1000px) {
+    padding: 22px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+}
+
+.marg-main {
+  margin: 32px;
+
+  @media (max-width: 1000px) {
+    margin: 22px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 12px;
+  }
+}
+
+.pad-main-header {
+  padding: 12px 32px;
+
+    @media (max-width: 1000px) {
+    padding: 12px 22px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+}
+
+.pad-main-footer {
+  padding: 12px 32px;
+
+    @media (max-width: 1000px) {
+    padding: 12px 22px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+}
+
+.pad-txt-box {
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+}
+
+.pad-link-bar {
+  padding: 12px 48px;
+
+  @media (max-width: 768px) {
+    padding: 12px 20px;
+  }
+}
+
+.border-txt-box {
+  border: solid 1px black;
+  border-radius: 12px;
+}
+
+.std-box-radius {
+  border-radius: 8px;
+}
+

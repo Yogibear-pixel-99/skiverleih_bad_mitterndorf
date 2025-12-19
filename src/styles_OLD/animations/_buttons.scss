@@ -1,0 +1,36 @@
+@keyframes flash-button {
+  0%,
+  20%,
+  40%,
+  100% {
+    filter: brightness(1);
+  }
+  10%,
+  30% {
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes delete-slide-left {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50dvw);
+    opacity: 0;
+  }
+}
+
+.animate-edit-note {
+  animation: blink-twice 0.5s ease-in-out 1;
+}
+
+@keyframes blink-twice {
+  0%, 25%, 50%, 75%, 100% {
+    filter: brightness(1);
+  }
+  12.5%, 37.5% {
+    filter: brightness(1.8); /* Aufblitzen */
+  }
+}

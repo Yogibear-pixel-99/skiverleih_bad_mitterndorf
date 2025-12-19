@@ -1,0 +1,55 @@
+@use "@/styles/mixins";
+@use "@/styles/colors/colors";
+
+.lang-content {
+  
+  gap: 4px;
+
+  > div {
+    width: 20px;
+    height: 8px;
+    background-color: colors.$main-txt-clr;
+    border-radius: 12px;
+    position: relative;
+
+    > div {
+      height: 13px;
+      width: 13px;
+      border-radius: 50%;
+      background-color: colors.$footer-bg-clr;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border: solid 1px colors.$main-txt-clr;
+    }
+  }
+}
+
+.active-lang {
+  padding: 2px 2px 0;
+  border: solid 2px colors.$footer-bg-clr;
+  border-radius: 4px;
+  cursor: default;
+}
+
+.inactive-lang {
+  padding: 3px 3px 1px;
+  border-radius: 4px;
+  border: solid 2px rgba(0, 0, 0, 0);
+
+  &:hover {
+    // color: darkmagenta;
+    border: solid 2px colors.$logo-clr;
+    cursor: pointer;
+  }
+}
+
+.de-active {
+  transform: translate(-80%, -50%);
+  transition: all ease-in-out 125ms;
+}
+
+.en-active {
+  transform: translate(-20%, -50%);
+   transition: all ease-in-out 125ms;
+}

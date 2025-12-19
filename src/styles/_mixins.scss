@@ -1,0 +1,27 @@
+
+
+@mixin flex-dir-jc-ai($di: column, $jc: space-between, $ai: center) {
+    display: flex;
+    flex-direction: $di;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin absolute-center-left ($top: 50%, $left: 50%, $transX: -50%, $transY: -50%) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate($transX, $transY);
+}
+@mixin absolute-center-right ($top: 50%, $right: 50%, $transX: -50%, $transY: -50%) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    transform: translate($transX, $transY);
+}

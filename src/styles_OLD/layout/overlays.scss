@@ -1,0 +1,55 @@
+@use "@/styles/colors/colors";
+@use "@/styles/mixins";
+
+
+.feature-overlay {
+position: fixed;
+bottom: 90px;
+left: 50%;
+max-width: 768px;
+width: 100dvw;
+transform: translate(-50%, 100dvh);
+transition: transform 200ms ease-in-out;
+
+@media (max-width: 768px) {
+    bottom: 80px;
+}
+}
+
+.feature-overlay-std-design {
+    position: relative;
+    z-index: 100;
+    max-width: 768px;
+    height: fit-content;
+    max-height: calc(100dvh - 220px);
+    padding: 20px;
+    background-color: colors.$footer-bg-clr;
+    border-radius: 20px 20px 0 0;
+    overflow-y: auto;
+        border-top: solid 2px  colors.$input-txt-clr;
+    box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.37);
+
+    @media (max-width: 768px) {
+        
+    }
+
+    @media (max-width: 350px) {
+        padding: 12px 6px;
+    }
+}
+
+.open-overlay-y {
+    transform: translate(-50%, 5px);
+}
+
+.close-overlay-y {
+    transform: translate(-50%, 100dvh);
+}
+
+.grayscale {
+   filter: grayscale(100%) !important; 
+}
+
+.center-button-overlay {
+@include mixins.absolute-center-left();
+}

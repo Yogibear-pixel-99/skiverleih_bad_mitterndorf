@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "Skiverleih Pürcher",
+    "since": "seit 1992"
+  },
+  "navbars": {
+    "corporate": {
+      "skirental": "Skiverleih",
+      "painting": "Malerei",
+      "apartmentRental": "Vermietung"
+    },
+    "header": {
+      "contact": "Kontakt",
+      "service": "Skiservice",
+      "rental": "Verleih",
+      "shop": "Shop",
+      "skiresorts": "Skigebiete"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+@use "./fonts";
+@use "@/styles/colors/colors";
+
+.all h1 {
+  font-family: "ptsans regular";
+  font-size: 64px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  color: colors.$main-txt-clr;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 42px;
+    letter-spacing: 1.2px;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 38px;
+    letter-spacing: 0px;
+  }
+}
+
+.all h2 {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 48px;
+  margin: 0;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
+}
+
+.all h3 {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 32px;
+  margin: 0;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+.all h4 {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 0;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.txt-font {
+  font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.txt-font-strong {
+  font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.small-txt-font {
+  font-family: "red hat", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.small-txt-font-bold {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.small-smooth-font-bold {
+  font-family: quintessential, "red hat", "ptsans regular", sans-serif,
+    "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.button-std-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.footer-txt-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.link-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: colors.$main-txt-clr;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.note-font {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: colors.$main-txt-clr;
+
+  // @media (max-width: 768px) {
+  //   font-size: 14px;
+  // }
+}
+
+.note-font-bold {
+  font-family: "ptsans regular", sans-serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.smooth-bg-font {
+  font-family: "quintessential", "ptsans regular", sans-serif, "Times New Roman",
+    Times, serif;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: colors.$main-txt-clr;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.std-link {
+  font-weight: 600;
+  color: colors.$link-txt-clr;
+  font-size: 18px;
+
+  &:hover {
+    color: colors.$header-txt-clr;
+  }
+
+    @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.std-link-small {
+  font-weight: 600;
+  color: colors.$link-txt-clr;
+
+  &:hover {
+    color: colors.$header-txt-clr;
+  }
+}
