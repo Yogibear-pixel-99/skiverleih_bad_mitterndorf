@@ -1,7 +1,29 @@
 {
-    "header" : {
-        "title" : "Skiverleih Pürcher",
-        "since" : "since 1992"
+  "header": {
+    "title": "Skiverleih Pürcher",
+    "since": "since 1992"
+  },
+  "navbars": {
+    "corporate": {
+      "skirental": "Ski Rental",
+      "painting": "Painting",
+      "apartmentRental": "Apartment Rental"
+    },
+    "header": {
+      "contact": "Contact",
+      "service": "Ski Service",
+      "rental": "Rental",
+      "shop": "Shop",
+      "wisperer": "The Ski Whisperer",
+      "skiresorts": "Ski Resorts"
     }
+  },
 
+  "hero": {
+        "title" : "Skirental from the heart",
+
+    "partOne": "Nestled in the snow-covered mountains, our family-run business has been welcoming you with warmth and tradition since 1992. Our founders valued personal consultation, high-quality equipment, and genuine service – values we continue today with love and attention to detail.",
+    "partTwo": "Our workshop combines decades of experience with state-of-the-art ski service technology. Every pair of skis and snowboard is precisely sharpened, perfectly waxed, and carefully prepared – so that every run is a pleasure and safety comes first.",
+    "partThree": "Every guest can feel our family atmosphere: We take our time, know many of our visitors personally, and ensure that every ski day remains unforgettable from the first turn in the morning to the last run in the evening. Welcome to our mountain paradise!"
+  }
 }

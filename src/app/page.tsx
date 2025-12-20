@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Header from "./components/shared/header/header";
@@ -12,10 +12,7 @@ export default function Home() {
     <>
       <div className={cn("h-dvh", styles.herowrapper)}>
         <Header />
-        <div className={styles.contentwrapper}>
         <HeroSection />
-
-        </div>
       </div>
     </>
   );

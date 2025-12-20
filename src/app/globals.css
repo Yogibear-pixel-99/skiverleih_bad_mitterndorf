@@ -3,8 +3,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+h1 {
+  font-size: var(--text-4xl);
+}
+h2 {
+  font-size: var(--text-3xl);
+}
 
 @theme inline {
+  --color-brand-red: #d01f13;
+  --color-brand-orange: #e49518;
+  --color-brand-darkbrown: #260300;
+  --color-brand-blue: #67aeb0;
 
   --radius-sm: calc(var(--radius) - 4px);
 
@@ -84,6 +94,10 @@
 }
 
 :root {
+  --color-brand-red: #d01f13;
+  --color-brand-orange: #e49518;
+  --color-brand-darkbrown: #260300;
+  --color-brand-blue: #67aeb0;
 
   --radius: 0.625rem;
 
@@ -151,6 +165,10 @@
 }
 
 .dark {
+  --color-brand-red: #d01f13;
+  --color-brand-orange: #e49518;
+  --color-brand-darkbrown: #260300;
+  --color-brand-blue: #67aeb0;
 
   --background: oklch(0.145 0 0);
 

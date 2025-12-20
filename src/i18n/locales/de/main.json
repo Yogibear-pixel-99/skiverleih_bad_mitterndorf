@@ -17,5 +17,13 @@
       "wisperer" : "Der Skiflüsterer",
       "skiresorts": "Skigebiete"
     }
+  },
+
+  "hero": {
+    "title" : "Skiverleih mit Herz",
+    "partOne": "Mitten in den verschneiten Bergen empfängt Sie unser Familienbetrieb seit 1992 mit Herzlichkeit und Tradition. Schon unsere Gründer legten Wert auf persönliche Beratung, hochwertige Ausrüstung und echten Service – Werte, die wir heute mit Liebe zum Detail fortführen.",
+    "partTwo": "Unsere Werkstatt kombiniert jahrzehntelange Erfahrung mit modernster Skiservice-Technik. Jedes Paar Ski und Snowboard wird präzise geschliffen, perfekt gewachst und sorgfältig vorbereitet – damit jede Abfahrt zum Vergnügen wird und Sicherheit an erster Stelle steht.",
+    "partThree": "Bei uns spürt jeder Gast die familiäre Atmosphäre: Wir nehmen uns Zeit, kennen viele unserer Besucher persönlich und sorgen dafür, dass jeder Skitag vom ersten Schwung am Morgen bis zur letzten Abfahrt am Abend unvergesslich bleibt. Willkommen in unserem Bergparadies!"
   }
 }
+

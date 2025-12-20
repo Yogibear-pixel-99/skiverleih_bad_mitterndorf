@@ -25,12 +25,12 @@ const changeLang = (lang:string) => {
 }
 
   return (
-    <section className={`${styles["lang-content"]} flex flex-row  small-btn-font`}>
-      <span onClick={() => changeLang("de")} className={`${langClass === "de" ? styles['active-lang'] : styles['inactive-lang']}`}>DE</span>
+    <section className={`${styles["lang-content"]} flex flex-row`}>
+      <span onClick={() => changeLang("de")} className={`${langClass === "de" ? styles['active-lang'] : styles['inactive-lang']} text-sm`}>DE</span>
       <div>
         <div className={`${langClass === "de" ? styles['de-active'] : styles['en-active']}`}></div>
       </div>
-      <span onClick={() => changeLang("en")} className={`${langClass === "en" ? styles['active-lang'] : styles['inactive-lang']}`}>EN</span>
+      <span onClick={() => changeLang("en")} className={`${langClass === "en" ? styles['active-lang'] : styles['inactive-lang']} text-sm`}>EN</span>
     </section>
   );
 }

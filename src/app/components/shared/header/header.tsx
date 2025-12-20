@@ -16,24 +16,39 @@ export default function Header() {
   return (
     <header className="bg-orange-200 h-[190px] flex flex-col justify-between">
       <div className=" flex flex-row items-center justify-between flex-1 h-40">
-      <div className="flex items-center gap-6 p-6">
-        <Image
-          src="/images/logos/main_logo.png"
-          alt="Skiverleih Logo"
-          width={100}
-          height={100}
-        />
-        <div className="flex flex-row items-center justify-center">
-          <h1 className="text-3xl -translate-y-[3px]">{t("header.title")}</h1>
-          <div className="h-6 px-2">
-            <Separator orientation="vertical" className="bg-amber-900" />
-          </div>
-          <span>{t("header.since")}</span>
+        <div className="flex items-center gap-6 p-6">
+          <Image
+            src="/images/logos/main_logo.png"
+            alt="Skiverleih Logo"
+            width={100}
+            height={100}
+          />
+          <div className="flex flex-col items-center justify-center w-[420px]">
+  <h1 className="-translate-y-[6px] text-brand-darkbrown font-bold">
+    {t("header.title")}
+  </h1>
+  <div className="flex flex-row w-full items-center gap-2">
+    <div className="w-8 h-[2px] bg-brand-darkbrown" />
+    <span className="text-brand-darkbrown text-lg whitespace-nowrap">
+      {t("header.since")}
+    </span>
+    <div className="flex-1 h-[2px] bg-brand-darkbrown" />
+  </div>
+</div>
         </div>
-      </div>
-        <LangSwitch/>
-      <div className="flex flex-col justify-between h-full">
-        <nav className="ml-auto border-b border-l rounded-bl-md border-amber-900 text-lg">
+        <div className="flex flex-col justify-between h-full pt-4">
+          <div className="ml-auto pr-4">
+            <LangSwitch />
+          </div>
+          <div className="overflow-hidden">
+            <Image
+              src="/images/hero/woodski.png"
+              alt="Wooden skiers"
+              width={300}
+              height={40}
+            />
+          </div>
+          {/* <nav className="ml-auto border-b border-l rounded-bl-md border-amber-900 text-lg">
           <ul className={cn("flex-row flex", styles.mainnav)}>
             <li className="bg-amber-900/40 rounded-bl-md">
               <Image
@@ -71,50 +86,48 @@ export default function Header() {
               <a href="">{t("navbars.corporate.apartmentRental")}</a>
             </li>
           </ul>
-        </nav>
-        {/* <div className="flex-1"> </div> */}
-       <div></div>
-       
+        </nav> */}
+          {/* <div className="flex-1"> </div> */}
+          <div></div>
+        </div>
       </div>
-      </div>
-       <nav className="border-t border-amber-900">
-          <ul className={cn("flex-row flex", styles.subnav)}>
-            <li className="rounded-tl-md">
-              <a href="">{t("navbars.header.rental")}</a>
-            </li>
-            <li>
-              <Separator orientation="vertical" className="bg-amber-900" />
-            </li>
-            <li>
-              <a href="">{t("navbars.header.service")}</a>
-            </li>
-            <li>
-              <Separator orientation="vertical" className="bg-amber-900" />
-            </li>
-            <li>
-              <a href="">{t("navbars.header.shop")}</a>
-            </li>
-            <li>
-              <Separator orientation="vertical" className="bg-amber-900" />
-            </li>
-            <li>
-              <a href="">{t("navbars.header.skiresorts")}</a>
-            </li>
-            <li>
-              <Separator orientation="vertical" className="bg-amber-900" />
-            </li>
-            <li>
-              <a href="">{t("navbars.header.wisperer")}</a>
-            </li>
-            <li>
-              <Separator orientation="vertical" className="bg-amber-900" />
-            </li>
-            <li>
-              <a href="">{t("navbars.header.contact")}</a>
-            </li>
-          </ul>
-        </nav>
-      
+      <nav className="border-t border-amber-900">
+        <ul className={cn("flex-row flex", styles.subnav)}>
+          <a href="">
+            <li className="rounded-tl-md">{t("navbars.header.rental")}</li>
+          </a>
+          <li>
+            <Separator orientation="vertical" className="bg-amber-900" />
+          </li>
+          <a href="">
+            <li>{t("navbars.header.service")}</li>
+          </a>
+          <li>
+            <Separator orientation="vertical" className="bg-amber-900" />
+          </li>
+          <a href="">
+            <li>{t("navbars.header.shop")}</li>
+          </a>
+          <li>
+            <Separator orientation="vertical" className="bg-amber-900" />
+          </li>
+          <a href="">
+            <li>{t("navbars.header.skiresorts")}</li>
+          </a>
+          <li>
+            <Separator orientation="vertical" className="bg-amber-900" />
+          </li>
+          <a href="">
+            <li>{t("navbars.header.wisperer")}</li>
+          </a>
+          <li>
+            <Separator orientation="vertical" className="bg-amber-900" />
+          </li>
+          <a href="">
+            <li>{t("navbars.header.contact")}</li>
+          </a>
+        </ul>
+      </nav>
     </header>
   );
 }
