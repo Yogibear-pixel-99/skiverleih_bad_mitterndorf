@@ -1,0 +1,16 @@
+
+
+
+.herowrapper {
+    background-color: rgb(252, 246, 242);
+    background-image: url("/images/hero/hero_bg_webp.webp");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentwrapper {
+    height: calc(100dvh - 190px);
+    display: flex;
+    align-items: center;
+}

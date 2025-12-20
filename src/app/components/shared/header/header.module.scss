@@ -6,15 +6,27 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
     padding: 6px 24px;
 }
 
-.subnav > li:nth-child(odd) {
+.subnav {
+   
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+> li:nth-child(odd) {
         display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 4px;
     padding: 4px 36px;
+}
+
+> li:nth-child(even) {
+    height: 20px;
+}
 }
