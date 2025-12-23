@@ -20,10 +20,16 @@
   },
 
   "hero": {
-    "title" : "Skiverleih mit Herz",
-    "partOne": "Mitten in den verschneiten Bergen empfängt Sie unser Familienbetrieb seit 1992 mit Herzlichkeit und Tradition. Schon unsere Gründer legten Wert auf persönliche Beratung, hochwertige Ausrüstung und echten Service – Werte, die wir heute mit Liebe zum Detail fortführen.",
-    "partTwo": "Unsere Werkstatt kombiniert jahrzehntelange Erfahrung mit modernster Skiservice-Technik. Jedes Paar Ski und Snowboard wird präzise geschliffen, perfekt gewachst und sorgfältig vorbereitet – damit jede Abfahrt zum Vergnügen wird und Sicherheit an erster Stelle steht.",
-    "partThree": "Bei uns spürt jeder Gast die familiäre Atmosphäre: Wir nehmen uns Zeit, kennen viele unserer Besucher persönlich und sorgen dafür, dass jeder Skitag vom ersten Schwung am Morgen bis zur letzten Abfahrt am Abend unvergesslich bleibt. Willkommen in unserem Bergparadies!"
+    "title" : "Erfahrung und persönlichem Service",
+    "partOne": "Seit 1992 begrüßt Sie unser Familienbetrieb mitten in der Bergwelt – geprägt von Erfahrung, Verlässlichkeit und persönlicher Betreuung. Schon von Beginn an standen individuelle Beratung, hochwertige Ausrüstung und sorgfältiger Service im Mittelpunkt unserer Arbeit. Diese Werte leben wir bis heute konsequent weiter.",
+    "partTwo": "In unserer hauseigenen Werkstatt verbinden wir langjährige Fachkenntnis mit moderner Skiservice-Technik. Ski und Snowboards werden präzise geschliffen, optimal gewachst und sorgfältig vorbereitet – für maximale Performance, Komfort und Sicherheit auf der Piste.",
+    "partThree": "Was uns auszeichnet, ist die persönliche Atmosphäre: Wir nehmen uns Zeit für unsere Gäste, kennen viele von ihnen seit Jahren und begleiten sie durch ihren Skitag – vom ersten Schwung am Morgen bis zur letzten Abfahrt. So entsteht ein Service, auf den man sich verlassen kann.",
+    "buttons" : {
+      "equip" : "Ausrüstung buchen",
+      "service" : "Skiservice buchen",
+      "prices" : "Preisliste anzeigen"
+    },
+    "wintersteiger" : "Perfektion mit Präzision, Wintersteiger Jupiter"
   }
 }
 

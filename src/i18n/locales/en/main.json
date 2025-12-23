@@ -18,12 +18,15 @@
       "skiresorts": "Ski Resorts"
     }
   },
-
   "hero": {
-        "title" : "Skirental from the heart",
-
-    "partOne": "Nestled in the snow-covered mountains, our family-run business has been welcoming you with warmth and tradition since 1992. Our founders valued personal consultation, high-quality equipment, and genuine service – values we continue today with love and attention to detail.",
-    "partTwo": "Our workshop combines decades of experience with state-of-the-art ski service technology. Every pair of skis and snowboard is precisely sharpened, perfectly waxed, and carefully prepared – so that every run is a pleasure and safety comes first.",
-    "partThree": "Every guest can feel our family atmosphere: We take our time, know many of our visitors personally, and ensure that every ski day remains unforgettable from the first turn in the morning to the last run in the evening. Welcome to our mountain paradise!"
+    "title": "Experience and Personal Service",
+    "partOne": "Since 1992, our family-run business has welcomed guests in the heart of the mountains, defined by experience, reliability, and personal attention. From the very beginning, individual consultation, high-quality equipment, and careful service have been at the core of our work. These values continue to guide us today.",
+    "partTwo": "In our in-house workshop, we combine decades of expertise with state-of-the-art ski service technology. Skis and snowboards are precisely tuned, perfectly waxed, and carefully prepared — ensuring maximum performance, comfort, and safety on the slopes.",
+    "partThree": "What sets us apart is the personal atmosphere: we take time for our guests, know many of them personally, and support them throughout their ski day — from the first turn in the morning to the final run. This is how we provide a service you can rely on.",
+    "buttons": {
+      "equip": "Book Equipment",
+      "service": "Book Ski Service",
+      "prices": "View Price List"
+    }
   }
 }

@@ -1,16 +1,45 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "condiment";
+  src: url("/fonts/Condiment-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "condiment";
+  src: url("/fonts/Condiment-Regular.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "condiment";
+  src: url("/fonts/Condiment-Regular.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 h1 {
-  font-size: var(--text-4xl);
+  font-size: clamp(32px, 3rem, 4rem)
+  /* font-family: condiment; */
 }
 h2 {
   font-size: var(--text-3xl);
 }
 
 @theme inline {
+
+  --font-condiment: "condiment", cursive;
+
   --color-brand-red: #d01f13;
   --color-brand-orange: #e49518;
   --color-brand-darkbrown: #260300;

@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export default function Home() {
   return (
     <>
-      <div className={cn("h-dvh", styles.herowrapper)}>
+      <div className={cn("h-dvh overflow-hidden", styles.herowrapper)}>
         <Header />
         <HeroSection />
       </div>

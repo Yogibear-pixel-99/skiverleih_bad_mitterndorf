@@ -3,13 +3,13 @@ import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const glassContainerVariants = cva(
-  "relative rounded-2xl border shadow-[0_8px_30px_rgba(0,0,0,0.08)]",
+  "relative rounded-lg shadow-md",
   {
     variants: {
       variant: {
-        low: "bg-white/40 backdrop-blur-sm border-white/10",
-        med: "bg-white/50 backdrop-blur-md border-white/20",
-        high: "bg-white/60 backdrop-blur-xl border-white/30",
+        low: "bg-white/20 backdrop-blur-sm border-white/10",
+        med: "bg-white/30 backdrop-blur-md border-white/20",
+        high: "bg-white/40 backdrop-blur-lg border-white/30",
       },
     },
     defaultVariants: {

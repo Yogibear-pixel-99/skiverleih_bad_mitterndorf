@@ -32,7 +32,7 @@ const weatherCodeMap: Record<number, string> = {
   99: "Gewitter mit starkem Hagel",
 };
 
-export default function WeatherWidget() {
+export default function WeatherBadMitterndorf() {
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
 
